@@ -20,7 +20,7 @@
       a * b
     }
 ## 6. Work experience
-* Educational project - https://github.com/comeback-khv/rsschool-cv
+* Educational project - https://github.com/comeback-khv/rsschool-cv/tree/gh-pages
 ## 7. Education
 * 2016-2020
 * Far Eastern State Transport University 
