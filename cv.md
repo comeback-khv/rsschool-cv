@@ -15,11 +15,12 @@
   * Git
 * Development tool:
   * VSCode
-  
+
 ## 5. Code example
     function multiply(a, b){
       a * b
     }
+    
 ## 6. Work experience
 * Educational project - https://github.com/comeback-khv/rsschool-cv/tree/gh-pages
 ## 7. Education
