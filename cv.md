@@ -1,4 +1,5 @@
 # CV
+![avatar](images/avatar.png)
 ## 1. Name
 * Anatolian Anushavan
 ## 2. Contacts
