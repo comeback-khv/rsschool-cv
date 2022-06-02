@@ -15,6 +15,7 @@
   * Git
 * Development tool:
   * VSCode
+  
 ## 5. Code example
     function multiply(a, b){
       a * b
