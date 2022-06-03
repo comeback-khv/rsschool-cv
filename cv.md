@@ -35,5 +35,7 @@
 * Far Eastern State Transport University 
 * Bachelor Degree
 
-## 8. English
-* A2
+## 8. Languages
+* English - A2
+* Russian - C2
+* Armenian - C2
