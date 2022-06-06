@@ -14,86 +14,89 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">Contacts</li>
-                    <li class="nav-item">About me</li>
-                    <li class="nav-item">Skills</li>
-                    <li class="nav-item">Come example</li>
-                    <li class="nav-item">Work experience</li>
-                    <li class="nav-item">Education</li>
-                    <li class="nav-item">Languages</li>
+                <ul class="nav__list">
+                    <li class="nav__item">Contacts</li>
+                    <li class="nav__item">About me</li>
+                    <li class="nav__item">Skills</li>
+                    <li class="nav__item">Come example</li>
+                    <li class="nav__item">Work experience</li>
+                    <li class="nav__item">Education</li>
+                    <li class="nav__item">Languages</li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main class="main">
-        <div class="container">
-            <section class="section" id="profile">
-                <h1 class="section-title">Anushavan Anatolian</h1>
-                <div class="avatar">
-                    <img src="avatar.png" alt="Аватар" class="src" width="112" height="112">
-                </div>
+        <div class="container main__container">
+            <section class="profile" id="profile">
+                <h1 class="profile__title">Anushavan Anatolian</h1>
+                <p class="profile__text">Junior Frontend developer</p>
+                <img class="profile__avatar" src="avatar.png" alt="Аватар" width="112" height="112">
             </section>
-            <section class="section" id="contacts">
+            <section class="contacts" id="contacts">
                 <h2 class="section-title">Contacts</h2>
-                <p>Discord</p>
-                <p>Comeback_khv#3420</p>
+                <p class="contacts__social-service">Discord</p>
+                <p class="contacts__social-name">Comeback_khv#3420</p>
             </section>
-            <section class="section" id="about_me">
+            <section class="about-me" id="about-me">
                 <h2 class="section-title">About me</h2>
-                <p>Main goal is to secure employment with a reputable company, where i can utilize my knowledge and
+                <p class="about-me__text">Main goal is to secure employment with a reputable company, where i can
+                    utilize
+                    my knowledge and
                     skills to the
                     maximum.Strengths are discipline, communication skills, purposefulness.</p>
             </section>
-            <section class="section" id="skills">
+            <section class="skills" id="skills">
                 <h2 class="section-title">Skills</h2>
-                <ul class="skills-list">
-                    <li class="skills-item">HTML</li>
-                    <li class="skills-item">CSS</li>
-                    <li class="skills-item">Git</li>
-                    <li class="skills-item">Vscode</li>
+                <ul class="section-list skills__list">
+                    <li class="section-list skills__item">HTML</li>
+                    <li class="section-list skills__item">CSS</li>
+                    <li class="section-list skills__item">Git</li>
+                    <li class="section-list skills__item">Vscode</li>
                 </ul>
             </section>
-            <section class="section" id="code_example">
+            <section class="code-example" id="code-example">
                 <h2 class="section-title">Come example</h2>
-                <pre><code>function multiply(a, b){
+                <pre class="code-example__text"><code>function multiply(a, b){
             a * b
             }</code></pre>
             </section>
-            <section class="section" id="work_experience">
-                <h2 class="section-title">Work experience</h2>
-                <h3>Educational project</h3>
-                <p>Rsschool</p>
-                <p>https://github.com/comeback-khv/rsschool-cv/tree/gh-pages</p>
-                <p>06.2022</p>
-            </section>
-            <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
-                <h3>Oil and gas business</h3>
-                <p>Far Eastern State Transport University</p>
-                <p>Bachelor Degree</p>
-                <p>2016-2020</p>
-            </section>
-            <section class="section" id="languages">
+            <section class="languages" id="languages">
                 <h2 class="section-title">Languages</h2>
-                <ul class="languages-list">
-                    <li class="languages-item">English<br>(A2)</li>
-                    <li class="languages-item">Russian<br>(C2)</li>
-                    <li class="languages-item">Armenian<br>(C2)</li>
+                <ul class="section-list languages__list">
+                    <li class="section-item languages__item">English<br>(A2)</li>
+                    <li class="section-item languages__item">Russian<br>(C2)</li>
+                    <li class="section-item languages__item">Armenian<br>(C2)</li>
                 </ul>
+            </section>
+            <section class="work-experience" id="work-experience">
+                <h2 class="section-title">Work experience</h2>
+                <div class="section-item">
+                    <h3 class="section-item__title">Educational project</h3>
+                    <p class="section-item__name">Rsschool</p>
+                    <p class="section-item__desc">https://github.com/comeback-khv/rsschool-cv/tree/gh-pages</p>
+                    <p class="section-item__date">06.2022</p>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="section-item">
+                    <h3 class="section-item__title">Oil and gas business</h3>
+                    <p class="section-item__name">Far Eastern State Transport University</p>
+                    <p class="section-item__desc">Bachelor Degree</p>
+                    <p class="section-item__date">2016-2020</p>
+                </div>
             </section>
         </div>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <div class="footer_inner">
-                <p class="footer_year">&COPY;2022</p>
-                <a class="footer_github" href="https://github.com/comeback-khv">Github</a>
-                <div class="footer_logo">
-                    <img src="rs-school_logo.svg" alt="Логотип rs-school" class="src" width="48" height="26">
-                </div>
+            <div class="footer__inner">
+                <p class="footer__year">&COPY;2022</p>
+                <a class="footer__github" href="https://github.com/comeback-khv">Github</a>
+                <img class="footer__logo" src="rs-school_logo.svg" alt="Логотип rs-school" width="48" height="26">
             </div>
         </div>
     </footer>
