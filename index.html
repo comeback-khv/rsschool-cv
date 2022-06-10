@@ -15,13 +15,13 @@
         <div class="container">
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item">Contacts</li>
-                    <li class="nav__item">About me</li>
-                    <li class="nav__item">Skills</li>
-                    <li class="nav__item">Come example</li>
-                    <li class="nav__item">Work experience</li>
-                    <li class="nav__item">Education</li>
-                    <li class="nav__item">Languages</li>
+                    <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#about-me">About me</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#code-example">Come example</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#work-experience">Work experience</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,13 +34,15 @@
                     <h1 class="profile__title">Anushavan Anatolian</h1>
                     <p class="profile__text">Junior Frontend developer</p>
                 </div>
-                <img class="profile__avatar" src="avatar.png" alt="Аватар" width="112" height="112">
+                <img class="profile__avatar" src="avatar.png" alt="Аватар" width="120" height="120">
             </section>
             <div class="two-columns">
                 <div class="left-column">
                     <section class="contacts main__section-left" id="contacts">
                         <h2 class="section-title main__section-title">Contacts</h2>
-                        <p class="contacts__social-service">Discord</p>
+                        <ul class="contacts__social-service-list">
+                            <li class="contacts__social-service-item">Discord</li>
+                        </ul>
                         <p class="contacts__social-name">Comeback_khv#3420</p>
                     </section>
                     <section class="skills main__section-left" id="skills">
@@ -64,36 +66,43 @@
                 <div class="right-column">
                     <section class="about-me main__section-right" id="about-me">
                         <h2 class="section-title main__section-title">About me</h2>
-                        <p class="about-me__text">Main goal is to secure employment with a reputable company, where ican
+                        <p class="about-me__text">Main goal is to secure employment with a reputable company, where i
+                            can
                             utilize my knowledge and skills to the
                             maximum.Strengths are discipline, communication skills, purposefulness.</p>
                     </section>
                     <section class="code-example main__section-right" id="code-example">
                         <h2 class="section-title main__section-title">Come example</h2>
-                        <pre class="code-example__text"><code>function multiply(a, b){
-                a * b
-                }</code></pre>
+                        <pre class="code-example__text">function multiply(a, b){
+  a * b
+}                        </pre>
                     </section>
                     <section class="work-experience main__section-right" id="work-experience">
                         <h2 class="section-title main__section-title">Work experience</h2>
                         <div class="section-block">
                             <h3 class="section-block__title">Educational project</h3>
-                            <p class="section-block__name">Rsschool</p>
-                            <p class="section-block__desc">https://github.com/comeback-khv/rsschool-cv/tree/gh-pages</p>
-                            <p class="section-block__date">06.2022</p>
+                            <div class="section-block-flex">
+                                <p class="section-block__name">Rsschool</p>
+                                <p class="section-block__date">06.2022</p>
+                            </div>
+                            <p class="section-block__desc">https://github.com/comeback-khv/rsschool-cv/tree/gh-pages
+                            </p>
                         </div>
                     </section>
                     <section class="education main__section-right" id="education">
                         <h2 class="section-title main__section-title">Education</h2>
                         <div class="section-block">
                             <h3 class="section-block__title">Oil and gas business</h3>
-                            <p class="section-block__name">Far Eastern State Transport University</p>
+                            <div class="section-block-flex">
+                                <p class="section-block__name">Far Eastern State Transport University</p>
+                                <p class="section-block__date">2016-2020</p>
+                            </div>
                             <p class="section-block__desc">Bachelor Degree</p>
-                            <p class="section-block__date">2016-2020</p>
                         </div>
                     </section>
                 </div>
             </div>
+        </div>
     </main>
 
     <footer class="footer">
@@ -101,7 +110,8 @@
             <div class="footer__inner">
                 <p class="footer__year">&COPY;2022</p>
                 <a class="footer__github" href="https://github.com/comeback-khv">Github</a>
-                <img class="footer__logo" src="rs-school_logo.svg" alt="Логотип rs-school" width="48" height="26">
+                <a href="https://rs.school/js/"><img class="footer__logo" src="rs-school_logo.svg"
+                        alt="Логотип rs-school" width="68" height="46"></a>
             </div>
         </div>
     </footer>
